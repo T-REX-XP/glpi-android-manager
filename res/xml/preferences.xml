@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Authenticate">
+        <EditTextPreference 
+            android:name="HostName"
+            android:summary="Set hostname of your GLPI server"
+            android:defaultValue=""
+            android:title="Hostname"
+            android:key="glpiHostname"/>
+        <EditTextPreference
+            android:name="Username"
+            android:summary="What is your GLPI Username?"
+            android:defaultValue="glpi"
+            android:title="Username"
+            android:key="glpiUsername"/>
+        <EditTextPreference
+            android:name="Password"
+            android:summary="What is your GLPI Username?"
+            android:defaultValue="glpi"
+            android:title="Password"
+            android:key="glpiPassword"
+            android:inputType="textPassword"/>            
+    </PreferenceCategory>
+</PreferenceScreen>
