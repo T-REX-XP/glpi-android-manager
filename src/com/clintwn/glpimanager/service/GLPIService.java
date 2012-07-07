@@ -1,4 +1,4 @@
-package com.clintwn.glpimanager;
+package com.clintwn.glpimanager.service;
 
 import android.app.Service;
 import android.content.Intent;

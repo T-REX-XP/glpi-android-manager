@@ -1,13 +1,13 @@
-package com.clintwn.glpimanager;
+package com.clintwn.glpimanager.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.ResultReceiver;
 import android.widget.TextView;
+
+import com.clintwn.glpimanager.R;
 
 public class MeActivity extends Activity { 
 	
-	public MyResultReceiver receiver;
 	
 	
 	private TextView glpiAccountIdText;
